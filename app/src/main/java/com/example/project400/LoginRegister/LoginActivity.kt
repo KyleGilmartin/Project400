@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.view.WindowManager
+import com.example.project400.Activitys.UserProfileActivity
 import com.example.project400.FireStore.FirestoreClass
 import com.example.project400.R
 import com.example.project400.utils.Constants
@@ -118,23 +119,23 @@ class LoginActivity : BaseActivity(), View.OnClickListener {
     /**
      * A function to notify user that logged in success and get the user details from the FireStore database after authentication.
      */
-//    fun userLoggedInSuccess(user: User) {
-//
-//        // Hide the progress dialog.
-//        hideProgressDialog()
-//
-//        if (user.profileCompleted == 0) {
-//            // If the user profile is incomplete then launch the UserProfileActivity.
-//            val intent = Intent(this@LoginActivity, UserProfileActivity::class.java)
-//            intent.putExtra(Constants.EXTRA_USER_DETAILS, user)
-//            startActivity(intent)
-//        } else {
-//
-//
-//            // Redirect the user to Dashboard Screen after log in.
-//            startActivity(Intent(this@LoginActivity, DashboardActivity::class.java))
-//            // END
-//        }
-//        finish()
-//    }
+    fun userLoggedInSuccess(user: User) {
+
+        // Hide the progress dialog.
+        hideProgressDialog()
+
+        if (user.profileCompleted == 0) {
+            // If the user profile is incomplete then launch the UserProfileActivity.
+            val intent = Intent(this@LoginActivity, UserProfileActivity::class.java)
+            intent.putExtra(Constants.EXTRA_USER_DETAILS, user)
+            startActivity(intent)
+        } else {
+
+
+            // Redirect the user to Dashboard Screen after log in.
+            startActivity(Intent(this@LoginActivity, DashboardActivity::class.java))
+            // END
+        }
+        finish()
+    }
 }

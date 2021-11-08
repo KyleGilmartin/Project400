@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.net.Uri
 import android.util.Log
+import com.example.project400.Activitys.UserProfileActivity
 import com.example.project400.LoginRegister.LoginActivity
 import com.example.project400.LoginRegister.RegisterActivity
 import com.example.project400.utils.Constants
@@ -93,12 +94,12 @@ class FirestoreClass{
                 )
                 editor.apply()
 
-//                when (activity) {
-//                    is LoginActivity -> {
-//                        // Call a function of base activity for transferring the result to it.
-//                        activity.userLoggedInSuccess(user)
-//                    }
-//                }
+                when (activity) {
+                    is LoginActivity -> {
+                        // Call a function of base activity for transferring the result to it.
+                        activity.userLoggedInSuccess(user)
+                    }
+                }
             }
             .addOnFailureListener { e ->
                 // Hide the progress dialog if there is any error. And print the error in log.
@@ -133,21 +134,21 @@ class FirestoreClass{
             .addOnSuccessListener {
 
                 // Notify the success result.
-//                when (activity) {
-//                    is UserProfileActivity -> {
-//                        // Call a function of base activity for transferring the result to it.
-//                        activity.userProfileUpdateSuccess()
-//                    }
-//                }
+                when (activity) {
+                    is UserProfileActivity -> {
+                        // Call a function of base activity for transferring the result to it.
+                        activity.userProfileUpdateSuccess()
+                    }
+                }
             }
             .addOnFailureListener { e ->
 
-//                when (activity) {
-//                    is UserProfileActivity -> {
-//                        // Hide the progress dialog if there is any error. And print the error in log.
-//                        activity.hideProgressDialog()
-//                    }
-//                }
+                when (activity) {
+                    is UserProfileActivity -> {
+                        // Hide the progress dialog if there is any error. And print the error in log.
+                        activity.hideProgressDialog()
+                    }
+                }
 
                 Log.e(
                     activity.javaClass.simpleName,
@@ -184,21 +185,21 @@ class FirestoreClass{
                         Log.e("Downloadable Image URL", uri.toString())
 
                         // Here call a function of base activity for transferring the result to it.
-//                        when (activity) {
-//                            is UserProfileActivity -> {
-//                                activity.imageUploadSuccess(uri.toString())
-//                            }
-//                        }
+                        when (activity) {
+                            is UserProfileActivity -> {
+                                activity.imageUploadSuccess(uri.toString())
+                            }
+                        }
                     }
             }
             .addOnFailureListener { exception ->
 
                 // Hide the progress dialog if there is any error. And print the error in log.
-//                when (activity) {
-//                    is UserProfileActivity -> {
-//                        activity.hideProgressDialog()
-//                    }
-//                }
+                when (activity) {
+                    is UserProfileActivity -> {
+                        activity.hideProgressDialog()
+                    }
+                }
 
                 Log.e(
                     activity.javaClass.simpleName,
