@@ -10,15 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".Activitys.UserProfileActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activitys.SettingsActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginRegister.ForgotPasswordActivity"
+            android:name=".Activitys.DashboardActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dashboard" />
+        <activity
+            android:name=".Activitys.UserProfileActivity"
+            android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:exported="true" />
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginRegister.ForgotPasswordActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginRegister.RegisterActivity"
             android:exported="true"

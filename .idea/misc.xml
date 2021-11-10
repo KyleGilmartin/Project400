@@ -12,11 +12,21 @@
         <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/drawable/ic_vector_chevron_right.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/drawable/ic_vector_settings.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/drawable/item_grey_border_background.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/layout/activity_forgot_password.xml" value="0.175" />
         <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/layout/activity_settings.xml" value="0.2" />
         <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
         <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/layout/dialog_progress.xml" value="0.175" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/layout/fragment_dashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.175" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/menu/dasboard_menu.xml" value="0.175" />
+        <entry key="..\:/Users/kyle/Documents/Project-400-main/app/app/src/main/res/menu/dashboard_menu.xml" value="0.175" />
       </map>
     </option>
   </component>

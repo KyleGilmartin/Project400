@@ -1,11 +1,11 @@
 package com.example.project400.LoginRegister
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.view.WindowManager
+import com.example.project400.Activitys.DashboardActivity
 import com.example.project400.Activitys.UserProfileActivity
 import com.example.project400.FireStore.FirestoreClass
 import com.example.project400.R
